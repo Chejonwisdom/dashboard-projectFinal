@@ -1,0 +1,374 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+  Background-color:#0e0d13;
+  margin:0;
+  color:#e3bc7a ;
+
+}
+
+@media screen and (min-width: 60em){
+body {
+  
+        display:  grid;
+        grid-template-columns: 1fr 1fr;
+        grid-templatye-rows:1fr 1fr;
+        grid-gap: 0.5rem;
+        height: 100vh;
+        width: 100vw;
+    }
+
+}
+
+
+
+section{
+	padding: 2rem;
+  background-color: black;
+  border-radius: 1rem;
+  border-color: grey;
+  border: solid;
+  border-width: 0.25rem;
+
+
+border-color:#e3bc7a;
+}
+
+section h1{
+	font-style: oblique;
+}
+
+h1{
+  font-family: 'Teko', sans-serif;
+  justify-self: start;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 3rem;
+}
+h2{
+  text-align: center;
+  font-size: 1rem;
+
+}
+
+
+.profile img{
+width: 100%;
+  align-self: end;
+  border-radius: 25rem;
+
+
+}
+
+
+.profile h1{  
+  display: grid;
+  place-items: center;
+}
+
+.profile p{  
+  display: grid;
+  place-items: center;
+}
+
+
+
+@media screen and (min-width: 60em){
+  .profile{
+    align-content: center;
+  grid-column: 1;
+  grid-row: 1/ span 2;
+
+  }
+}
+
+
+
+.recent-stats{
+
+	
+
+}
+
+.recent-stats img{
+disply: inline-block;
+size: 1rem;
+  
+
+}
+.recent-stats h1{
+  font-size: 3rem;
+justify-self: center;
+vertical-align: center;
+}
+@media screen and (min-width: 60em){
+  .recent-stats{
+grid-column: 2;
+  grid-row: 1;
+  disply: inline-block;
+
+}
+}
+
+
+
+
+
+
+
+
+
+.match-history{
+
+}
+
+@media screen and (min-width: 60em){
+  .match-history{
+grid-column: 2;
+  grid-row: 2;
+}
+}
+
+
+
+
+
+
+
+
+.match-history li{
+border-radius: 1rem;
+  border-color: grey;
+  border: solid;
+  border-width: 0.25;
+  border-color:#e3bc7a;
+  
+  text-align: center;
+  padding: 0.2rem;
+  list-style: none;
+  margin: 1rem;
+  font-size: 1rem;
+ Background-color:#0e0d13;
+  display: grid;
+    grid-gap: 0.1rem;
+    grid-column: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ranked-progress{
+
+}
+
+
+
+@media screen and (min-width: 60em){
+  .ranked-progress{
+grid-column: 2/ span 2;
+  grid-row: 3;
+  text-align: center;
+} 
+}
+
+
+
+
+
+
+
+
+
+.favourite-character{
+  text-align: center;
+
+}
+
+.favourite-character img{
+
+  width: 100%;
+  border-radius: 1rem;
+
+}
+
+@media screen and (min-width: 60em){
+  .favourite-character{
+grid-column: 1;
+  grid-row: 3;
+}
+}
+
+
+.favourite-character li{
+	border-radius: 1rem;
+  border-color: grey;
+  border: solid;
+  border-width: 0.1rem;
+  border-color:#e3bc7a;
+  
+  text-align: center;
+  padding: 0.2rem;
+  list-style: none;
+  margin: 1rem;
+  font-size: 1rem;
+ Background-color:#0e0d13;
+  display: grid;
+    grid-gap: 0.1rem;
+    grid-column: 2;
+}
+
+
+
+
+
+
+
+.friends{ 
+display: grid;
+
+
+
+}
+
+
+.friends img{
+width: 15%;
+  place-item: right;
+  grid-column: 1;
+  Background-color:transparent;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-right: 0.2rem;
+}
+
+
+
+
+@media screen and (min-width: 60em){
+  .friends{
+grid-column: 3;
+  grid-row: 1/ span 2;
+
+} 
+}
+
+
+.friends li{
+	border-radius: 1rem;
+  border-color: grey;
+  border: solid;
+  border-width: 0.1rem;
+  border-color:#e3bc7a;
+  margin: 0.5rem;
+ 
+    list-style: none;
+    margin-left: 2px;
+    padding-left: 2px;
+    grid-column: 1;
+
+}
+
+.friends p{
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  Background-color:#0e0d13;
+}
+
+
+
+
+
+
+
+
+.top-player-builds{ 
+display: grid;
+
+
+
+}
+
+
+.top-player-builds img{
+width: 15%;
+  place-item: right;
+  grid-column: 1;
+  Background-color:transparent;
+  padding-left: 1rem;
+  padding-top: 1rem;
+   padding-right: 0.2rem;
+}
+
+
+
+
+@media screen and (min-width: 60em){
+  .top-player-builds{
+grid-column: 4;
+  grid-row: 1/ span 2;
+
+} 
+}
+
+
+.top-player-builds li{
+  border-radius: 1rem;
+  border-color: grey;
+  border: solid;
+  border-width: 0.1rem;
+  border-color:#e3bc7a;
+  margin: 0.5rem;
+ 
+    list-style: none;
+    margin-left: 2px;
+    padding-left: 2px;
+    grid-column: 1;
+
+}
+
+.top-player-builds p{
+  text-align: center;
+  margin: 0.2rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+  Background-color:#0e0d13;
+
+}
+
+
+
+
+.patch-notes{
+  text-align: center;
+
+}
+
+
+.patch-notes img{
+  width: 60%;
+
+}
+
+
+@media screen and (min-width: 60em){
+  .patch-notes{
+grid-column: 4;
+  grid-row: 3;
+  margin: 0;
+
+}
+}
